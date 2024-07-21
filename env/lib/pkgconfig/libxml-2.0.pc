@@ -1,0 +1,13 @@
+prefix=/Users/sitijacharya/Desktop/ml-course/boston-house-price-prediction/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/sitijacharya/Desktop/ml-course/boston-house-price-prediction/env/lib -lz -L/Users/sitijacharya/Desktop/ml-course/boston-house-price-prediction/env/lib -llzma -lpthread -L/Users/sitijacharya/Desktop/ml-course/boston-house-price-prediction/env/lib -liconv -L/Users/sitijacharya/Desktop/ml-course/boston-house-price-prediction/env/lib -licui18n -licuuc -licudata   
+Cflags: -I${includedir}/libxml2 -I/Users/sitijacharya/Desktop/ml-course/boston-house-price-prediction/env/include 
